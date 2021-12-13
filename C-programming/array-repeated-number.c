@@ -1,7 +1,8 @@
 #include<stdio.h>
-int b[10],len=1;
+int *b,len=1;
 int check(int val)
 {
+    b=(int *)realloc(b,2*sizeof(int));
     int i;
     for(i=0;i<len;i++)
     {
