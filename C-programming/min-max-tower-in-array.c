@@ -43,7 +43,7 @@ void main()
     scanf("%d",&key);
     for(i=0;i<size;i++)
     {
-        if((array[i]/key)>0)
+        if((array[i]-key)>0)
         {
             array[i]-=key;
         }
